@@ -13,6 +13,10 @@ app.use(express.static ("public"))
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
+app.get('/', (req, res) => {
+    res.redirect('/rutinas');
+});
+
 app.use("/api", apiRoute);
 app.use("/api", entrenadoresRoute);
 app.use(rutinasRoute);
