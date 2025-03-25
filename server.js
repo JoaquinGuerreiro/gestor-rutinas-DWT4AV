@@ -1,44 +1,20 @@
-import express from "express"
-import peliculasRoute from "./routes/peliculas.routes.js"
-import apiRoute from "./api/routes/peliculas.routes.js"
-const app = express()
-// let contador = 0
+import express from "express";
+import rutinasRoute from "./routes/rutinas.routes.js";
+import apiRoute from "./api/routes/rutinas.routes.js";
+import entrenadoresRoute from "./api/routes/entrenadores.routes.js";
+// import path from 'path';
 
-// app.use( express.static("public") )
-app.use( express.urlencoded({ extended: true }) )
-app.use( express.json() )
 
-app.use("/api",apiRoute)
-app.use(peliculasRoute)
+const app = express();
 
-app.listen(2025, () => console.log("Servidor funcionando"))
+// app.use(express.static(path.join(process.cwd(), 'public')));
+app.use(express.static ("public"))
 
-/**
- * 1. URL -> URI
- * La URL no hace referencia a la locacion, sino que identifica un recurso
- * 
- *  /productos
- *  /peliculas
- *  /usuarios
- *  /usuarios/perfil
- * 
- *  /usuarios/nuevo           X     NO!
- * 
- * 2. La accion se define con los verbos http
- * 
- *      GET -> Obtener un recurso
- *      POST -> CREAR UN RECURSO
- *      PUT -> REEMPLAZAR UN RECURSO
- *      PATCH -> ACTUALIZAR
- *      DELETE -> ELIMINAR
- * 
- * 3. Los datos de los recursos son transportados utilizando el formato JSON o xml
- * 
- * 4. Los estados de las peticiones son definidas con http status code
- * 
- * 1xx -> informacion de estado de servio
- * 2xx -> OK
- * 3xx -> redireccion
- * 4xx -> errores del usuario
- * 5xx -> errores del servidor
- */
+app.use(express.urlencoded({ extended: true }));
+app.use(express.json());
+
+app.use("/api", apiRoute);
+app.use("/api", entrenadoresRoute);
+app.use(rutinasRoute);
+
+app.listen(3333, () => console.log("Servidor funcionando en el puerto 3333"));

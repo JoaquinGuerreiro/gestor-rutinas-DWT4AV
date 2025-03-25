@@ -1,0 +1,523 @@
+[{
+  "_id": {
+    "$oid": "66f7481e2fad84923212bc29"
+  },
+  "nombre": "Rutina Cardio Intensa",
+  "descripcion": "Una rutina de alta intensidad para mejorar tu resistencia cardiovascular.",
+  "nivel": "Intermedio",
+  "duracion": 45,
+  "enlace": "http://miweb.com/rutina-cardio-intensa",
+  "imagen": "https://picsum.photos/400/225",
+  "seccion": "cardio",
+  "entrenadores": [
+    {
+      "$oid": "66f74402755c750ed7888072"
+    },
+    {
+      "$oid": "66f74402755c750ed7888074"
+    },
+    {
+      "$oid": "66f74402755c750ed7888077"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "66f7481f2fad84923212bc2a"
+  },
+  "nombre": "Cardio en Intervalos",
+  "descripcion": "Ejercicios de intervalos de alta y baja intensidad para mejorar el metabolismo.",
+  "nivel": "Avanzado",
+  "duracion": 30,
+  "enlace": "http://miweb.com/cardio-intervalos",
+  "imagen": "https://picsum.photos/400/225",
+  "seccion": "cardio",
+  "entrenadores": [
+    {
+      "$oid": "66f74402755c750ed7888072"
+    },
+    {
+      "$oid": "66f74402755c750ed7888074"
+    },
+    {
+      "$oid": "66f74402755c750ed7888077"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "66f7481f2fad84923212bc2b"
+  },
+  "nombre": "Cardio Principiante",
+  "descripcion": "Rutina simple para principiantes que buscan empezar con el ejercicio cardiovascular.",
+  "nivel": "Principiante",
+  "duracion": 20,
+  "enlace": "http://miweb.com/cardio-principiante",
+  "imagen": "https://picsum.photos/400/225",
+  "seccion": "cardio",
+  "entrenadores": [
+    {
+      "$oid": "66f74402755c750ed7888072"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "66f7481f2fad84923212bc2c"
+  },
+  "nombre": "HIIT de 15 Minutos",
+  "descripcion": "Entrenamiento rápido y efectivo de alta intensidad.",
+  "nivel": "Intermedio",
+  "duracion": 15,
+  "enlace": "http://miweb.com/hiit-15-minutos",
+  "imagen": "https://picsum.photos/400/225",
+  "seccion": "cardio",
+  "entrenadores": [
+    {
+      "$oid": "66f74402755c750ed7888074"
+    },
+    {
+      "$oid": "66f74402755c750ed7888077"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "66f7481f2fad84923212bc2d"
+  },
+  "nombre": "Fuerza Total Cuerpo",
+  "descripcion": "Rutina para fortalecer todo el cuerpo utilizando pesas libres.",
+  "nivel": "Intermedio",
+  "duracion": 60,
+  "enlace": "http://miweb.com/fuerza-total-cuerpo",
+  "imagen": "https://picsum.photos/400/225",
+  "seccion": "musculacion",
+  "entrenadores": [
+    {
+      "$oid": "66f74402755c750ed7888073"
+    },
+    {
+      "$oid": "66f74402755c750ed7888070"
+    },
+    {
+      "$oid": "66f74402755c750ed7888076"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "66f7481f2fad84923212bc2e"
+  },
+  "nombre": "Hipertrofia de Pecho",
+  "descripcion": "Entrenamiento enfocado en la ganancia muscular del pecho.",
+  "nivel": "Avanzado",
+  "duracion": 50,
+  "enlace": "http://miweb.com/hipertrofia-pecho",
+  "imagen": "https://picsum.photos/400/225",
+  "seccion": "musculacion",
+  "entrenadores": [
+    {
+      "$oid": "66f74402755c750ed7888073"
+    },
+    {
+      "$oid": "66f74402755c750ed7888070"
+    },
+    {
+      "$oid": "66f74402755c750ed7888076"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "66f7481f2fad84923212bc2f"
+  },
+  "nombre": "Fuerza de Espalda",
+  "descripcion": "Ejercicios de espalda para desarrollar fuerza y estabilidad.",
+  "nivel": "Intermedio",
+  "duracion": 45,
+  "enlace": "http://miweb.com/fuerza-espalda",
+  "imagen": "https://picsum.photos/400/225",
+  "seccion": "musculacion",
+  "entrenadores": [
+    {
+      "$oid": "66f74402755c750ed7888073"
+    },
+    {
+      "$oid": "66f74402755c750ed7888070"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "66f7481f2fad84923212bc30"
+  },
+  "nombre": "Rutina Full Body",
+  "descripcion": "Entrenamiento de todo el cuerpo utilizando mancuernas.",
+  "nivel": "Principiante",
+  "duracion": 40,
+  "enlace": "http://miweb.com/rutina-full-body",
+  "imagen": "https://picsum.photos/400/225",
+  "seccion": "musculacion",
+  "entrenadores": [
+    {
+      "$oid": "66f74402755c750ed7888073"
+    },
+    {
+      "$oid": "66f74402755c750ed7888070"
+    },
+    {
+      "$oid": "66f74402755c750ed7888076"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "66f7481f2fad84923212bc31"
+  },
+  "nombre": "Entrenamiento de Piernas",
+  "descripcion": "Rutina especializada en fortalecer los músculos de las piernas.",
+  "nivel": "Intermedio",
+  "duracion": 55,
+  "enlace": "http://miweb.com/entrenamiento-piernas",
+  "imagen": "https://picsum.photos/400/225",
+  "seccion": "musculacion",
+  "entrenadores": [
+    {
+      "$oid": "66f74402755c750ed7888073"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "66f7481f2fad84923212bc32"
+  },
+  "nombre": "Estiramientos Matutinos",
+  "descripcion": "Estiramientos suaves para empezar el día con energía.",
+  "nivel": "Principiante",
+  "duracion": 15,
+  "enlace": "http://miweb.com/estiramientos-matutinos",
+  "imagen": "https://picsum.photos/400/225",
+  "seccion": "flexibilidad",
+  "entrenadores": [
+    {
+      "$oid": "66f74402755c750ed7888071"
+    },
+    {
+      "$oid": "66f74402755c750ed7888075"
+    },
+    {
+      "$oid": "66f74402755c750ed7888079"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "66f7481f2fad84923212bc33"
+  },
+  "nombre": "Flexibilidad para Corredores",
+  "descripcion": "Estiramientos diseñados para corredores, enfocados en las piernas.",
+  "nivel": "Intermedio",
+  "duracion": 25,
+  "enlace": "http://miweb.com/flexibilidad-corredores",
+  "imagen": "https://picsum.photos/400/225",
+  "seccion": "flexibilidad",
+  "entrenadores": [
+    {
+      "$oid": "66f74402755c750ed7888071"
+    },
+    {
+      "$oid": "66f74402755c750ed7888075"
+    },
+    {
+      "$oid": "66f74402755c750ed7888079"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "66f7481f2fad84923212bc34"
+  },
+  "nombre": "Yoga para Principiantes",
+  "descripcion": "Una sesión de yoga suave para mejorar la flexibilidad.",
+  "nivel": "Principiante",
+  "duracion": 30,
+  "enlace": "http://miweb.com/yoga-principiantes",
+  "imagen": "https://picsum.photos/400/225",
+  "seccion": "flexibilidad",
+  "entrenadores": [
+    {
+      "$oid": "66f74402755c750ed7888071"
+    },
+    {
+      "$oid": "66f74402755c750ed7888079"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "66f7481f2fad84923212bc35"
+  },
+  "nombre": "Rutina de Movilidad",
+  "descripcion": "Ejercicios para mejorar la movilidad articular y evitar lesiones.",
+  "nivel": "Intermedio",
+  "duracion": 35,
+  "enlace": "http://miweb.com/rutina-movilidad",
+  "imagen": "https://picsum.photos/400/225",
+  "seccion": "flexibilidad",
+  "entrenadores": [
+    {
+      "$oid": "66f74402755c750ed7888075"
+    },
+    {
+      "$oid": "66f74402755c750ed7888079"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "66f7481f2fad84923212bc36"
+  },
+  "nombre": "Yoga para la Flexibilidad",
+  "descripcion": "Sesión de yoga avanzada para mejorar flexibilidad y respiración.",
+  "nivel": "Avanzado",
+  "duracion": 45,
+  "enlace": "http://miweb.com/yoga-flexibilidad",
+  "imagen": "https://picsum.photos/400/225",
+  "seccion": "flexibilidad",
+  "entrenadores": [
+    {
+      "$oid": "66f74402755c750ed7888071"
+    },
+    {
+      "$oid": "66f74402755c750ed7888079"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "66f7481f2fad84923212bc37"
+  },
+  "nombre": "Resistencia para Principiantes",
+  "descripcion": "Rutina sencilla para mejorar la resistencia muscular.",
+  "nivel": "Principiante",
+  "duracion": 30,
+  "enlace": "http://miweb.com/resistencia-principiantes",
+  "imagen": "https://picsum.photos/400/225",
+  "seccion": "resistencia",
+  "entrenadores": [
+    {
+      "$oid": "66f74402755c750ed7888072"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "66f7481f2fad84923212bc38"
+  },
+  "nombre": "Resistencia con Pesas",
+  "descripcion": "Mejora tu resistencia muscular utilizando pesas ligeras.",
+  "nivel": "Intermedio",
+  "duracion": 40,
+  "enlace": "http://miweb.com/resistencia-pesas",
+  "imagen": "https://picsum.photos/400/225",
+  "seccion": "resistencia",
+  "entrenadores": [
+    {
+      "$oid": "66f74402755c750ed7888070"
+    },
+    {
+      "$oid": "66f74402755c750ed7888073"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "66f7481f2fad84923212bc39"
+  },
+  "nombre": "Entrenamiento Funcional",
+  "descripcion": "Rutina de entrenamiento funcional para mejorar fuerza y movilidad.",
+  "nivel": "Intermedio",
+  "duracion": 50,
+  "enlace": "http://miweb.com/entrenamiento-funcional",
+  "imagen": "https://picsum.photos/400/225",
+  "seccion": "musculacion",
+  "entrenadores": [
+    {
+      "$oid": "66f74402755c750ed7888070"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "66f7481f2fad84923212bc3a"
+  },
+  "nombre": "Entrenamiento de Core",
+  "descripcion": "Rutina para fortalecer el core y mejorar la estabilidad.",
+  "nivel": "Intermedio",
+  "duracion": 40,
+  "enlace": "http://miweb.com/entrenamiento-core",
+  "imagen": "https://picsum.photos/400/225",
+  "seccion": "core",
+  "entrenadores": [
+    {
+      "$oid": "66f74402755c750ed7888078"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "66f74ba72fad84923212bc3d"
+  },
+  "nombre": "Rutina de Abdominales Avanzados",
+  "descripcion": "Una rutina enfocada en trabajar los músculos abdominales con ejercicios de alta intensidad.",
+  "nivel": "Avanzado",
+  "duracion": 30,
+  "enlace": "https://example.com/rutina-abdominales-avanzados",
+  "imagen": "https://picsum.photos/200/200",
+  "seccion": "core",
+  "entrenadores": [
+    {
+      "$oid": "66f74402755c750ed7888078"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "66f74ba72fad84923212bc3e"
+  },
+  "nombre": "Fortalecimiento del Core con Planchas",
+  "descripcion": "Rutina centrada en ejercicios de planchas para mejorar la estabilidad del core.",
+  "nivel": "Intermedio",
+  "duracion": 20,
+  "enlace": "https://example.com/rutina-plancha",
+  "imagen": "https://picsum.photos/200/200",
+  "seccion": "core",
+  "entrenadores": [
+    {
+      "$oid": "66f74402755c750ed7888078"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "66f74ba72fad84923212bc3f"
+  },
+  "nombre": "Circuito de Core y Flexibilidad",
+  "descripcion": "Una rutina que combina ejercicios de core con estiramientos para mejorar la flexibilidad.",
+  "nivel": "Intermedio",
+  "duracion": 40,
+  "enlace": "https://example.com/rutina-circuito-core",
+  "imagen": "https://picsum.photos/200/200",
+  "seccion": "core",
+  "entrenadores": [
+    {
+      "$oid": "66f74402755c750ed7888071"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "66f74ba72fad84923212bc40"
+  },
+  "nombre": "Desafío de Abdominales y Glúteos",
+  "descripcion": "Rutina que combina ejercicios de abdominales y glúteos para un entrenamiento completo.",
+  "nivel": "Avanzado",
+  "duracion": 45,
+  "enlace": "https://example.com/rutina-desafio-abdominales",
+  "imagen": "https://picsum.photos/200/200",
+  "seccion": "core",
+  "entrenadores": [
+    {
+      "$oid": "66f74402755c750ed7888073"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "66f74ba72fad84923212bc41"
+  },
+  "nombre": "Resistencia Cardio de Alta Intensidad",
+  "descripcion": "Rutina de cardio que desafía tu resistencia y mejora tu rendimiento.",
+  "nivel": "Avanzado",
+  "duracion": 30,
+  "enlace": "https://example.com/rutina-cardio-alta-intensidad",
+  "imagen": "https://picsum.photos/200/200",
+  "seccion": "resistencia",
+  "entrenadores": [
+    {
+      "$oid": "66f74402755c750ed7888072"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "66f74ba72fad84923212bc42"
+  },
+  "nombre": "Entrenamiento de Resistencia de Cuerpo Completo",
+  "descripcion": "Una rutina que combina ejercicios de resistencia para todo el cuerpo.",
+  "nivel": "Intermedio",
+  "duracion": 50,
+  "enlace": "https://example.com/rutina-resistencia-cuerpo-completo",
+  "imagen": "https://picsum.photos/200/200",
+  "seccion": "resistencia",
+  "entrenadores": [
+    {
+      "$oid": "66f74402755c750ed7888074"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "66f74ba72fad84923212bc43"
+  },
+  "nombre": "HIIT de Resistencia",
+  "descripcion": "Rutina de intervalos de alta intensidad centrada en mejorar la resistencia.",
+  "nivel": "Intermedio",
+  "duracion": 25,
+  "enlace": "https://example.com/rutina-hiit-resistencia",
+  "imagen": "https://picsum.photos/200/200",
+  "seccion": "resistencia",
+  "entrenadores": [
+    {
+      "$oid": "66f74402755c750ed7888072"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "66f96c7d570216243812b4f8"
+  },
+  "nombre": "Trote en la plaza",
+  "descripcion": "Trote simple para aumentar la capacidad pulmonar y el estado físico en general.",
+  "nivel": "Principiante",
+  "duracion": 20,
+  "enlace": "http://miweb.com/rutina-bicep-intensa",
+  "imagen": "https://picsum.photos/400/225",
+  "seccion": "cardio",
+  "entrenadores": [
+    {
+      "$oid": "66f74402755c750ed7888072"
+    },
+    {
+      "$oid": "66f74402755c750ed7888077"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "66fb21834afe67d55bf36e07"
+  },
+  "nombre": "Rutina de intensidad",
+  "descripcion": "Una rutina de alta intensidad para mejorar el acondicionamiento fisico.",
+  "nivel": "Avanzado",
+  "duracion": 45,
+  "enlace": "http://miweb.com/rutina-intensa",
+  "imagen": "https://picsum.photos/400/225",
+  "seccion": "cardio",
+  "entrenadores": [
+    {
+      "$oid": "66f74402755c750ed7888072"
+    }
+  ],
+  "eliminado": true
+}]

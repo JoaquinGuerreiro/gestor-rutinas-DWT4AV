@@ -1,14 +1,19 @@
-import { MongoClient } from "mongodb"
+import { MongoClient } from "mongodb";
 
-const cliente = new MongoClient('mongodb://localhost:27017')
+const uri = process.env.MONGODB_URI || 'mongodb://localhost:27017';
+const cliente = new MongoClient(uri);
 
-cliente.connect()
-    .then( async () => {
-        console.log("Me Conecte!")
-        const db = cliente.db("Cine")
-        const datos = await db.collection("Peliculas").find().toArray()
-        const promociones = await db.collection("Promociones").find().toArray()
+async function connect() {
+    try {
+        await cliente.connect();
+        console.log("Conexión exitosa a la base de datos");
+        const db = cliente.db("AH20232CP1");
+        return db;
+    } catch (error) {
+        console.error("No me pude conectar a la base de datos: ", error);
+        throw error;
+    }
+}
 
-        console.log(datos)
-    } )
-    .catch( () => console.log("No me pude conectar") )
+export default connect;
+    

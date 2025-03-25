@@ -1,0 +1,90 @@
+[{
+  "_id": {
+    "$oid": "66f74402755c750ed7888070"
+  },
+  "nombre": "Carlos Pérez",
+  "foto": "https://randomuser.me/api/portraits/men/10.jpg",
+  "descripcion": "Especialista en entrenamiento funcional y pesas."
+},
+{
+  "_id": {
+    "$oid": "66f74402755c750ed7888071"
+  },
+  "nombre": "Ana Gómez",
+  "foto": "https://randomuser.me/api/portraits/women/96.jpg",
+  "descripcion": "Instructora de yoga y flexibilidad."
+},
+{
+  "_id": {
+    "$oid": "66f74402755c750ed7888072"
+  },
+  "nombre": "Luis Fernández",
+  "foto": "https://randomuser.me/api/portraits/men/70.jpg",
+  "descripcion": "Experto en resistencia y cardio de alto rendimiento."
+},
+{
+  "_id": {
+    "$oid": "66f74402755c750ed7888073"
+  },
+  "nombre": "María Rodríguez",
+  "foto": "https://randomuser.me/api/portraits/women/91.jpg",
+  "descripcion": "Entrenadora de musculación y rehabilitación."
+},
+{
+  "_id": {
+    "$oid": "66f74402755c750ed7888074"
+  },
+  "nombre": "Jorge Martínez",
+  "foto": "https://randomuser.me/api/portraits/men/19.jpg",
+  "descripcion": "Entrenador de crossfit y alta intensidad."
+},
+{
+  "_id": {
+    "$oid": "66f74402755c750ed7888075"
+  },
+  "nombre": "Laura Vega",
+  "foto": "https://randomuser.me/api/portraits/women/10.jpg",
+  "descripcion": "Instructora de pilates y movilidad."
+},
+{
+  "_id": {
+    "$oid": "66f74402755c750ed7888076"
+  },
+  "nombre": "Diego Suárez",
+  "foto": "https://randomuser.me/api/portraits/men/33.jpg",
+  "descripcion": "Especialista en fuerza y entrenamiento corporal completo."
+},
+{
+  "_id": {
+    "$oid": "66f74402755c750ed7888077"
+  },
+  "nombre": "Sofía Moreno",
+  "foto": "https://randomuser.me/api/portraits/women/19.jpg",
+  "descripcion": "Instructora de cardio y HIIT."
+},
+{
+  "_id": {
+    "$oid": "66f74402755c750ed7888078"
+  },
+  "nombre": "Héctor Díaz",
+  "foto": "https://randomuser.me/api/portraits/men/75.jpg",
+  "descripcion": "Entrenador de core y estabilidad."
+},
+{
+  "_id": {
+    "$oid": "66f74402755c750ed7888079"
+  },
+  "nombre": "Andrea Fuentes",
+  "foto": "https://randomuser.me/api/portraits/women/13.jpg",
+  "descripcion": "Especialista en yoga avanzado y flexibilidad."
+},
+{
+  "_id": {
+    "$oid": "66fb20f54afe67d55bf36e06"
+  },
+  "nombre": "Lucas Melanes",
+  "foto": "https://picsum.photos/400/225",
+  "descripcion": "Tremendo entrenador",
+  "rutinas": [],
+  "eliminado": true
+}]
