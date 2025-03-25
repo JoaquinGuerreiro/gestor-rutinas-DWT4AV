@@ -1,7 +1,7 @@
-# DWT4AV - Gestor de Rutinas Online 🏋️‍♂️
+# Gestor de Rutinas Online 🏋️‍♂️
 
 ## Descripción
-DWT4AV es una aplicación web que permite gestionar rutinas de entrenamiento y entrenadores. Los usuarios pueden ver, agregar, modificar y eliminar rutinas, así como consultar información sobre entrenadores.
+Gestor de Rutinas que permite gestionar rutinas de entrenamiento y entrenadores. Los usuarios pueden ver, agregar, modificar y eliminar rutinas, así como consultar información sobre entrenadores.
 
 ## Tecnologías Utilizadas
 - **Node.js**: Entorno de ejecución para JavaScript en el servidor.
